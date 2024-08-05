@@ -22,7 +22,7 @@ exports.index = asyncHandler(async (req, res, next) => {
     ]);
     
     res.render('index', {
-        title: 'Local Library Home',
+        title: 'Library Home',
         book_count: numBooks,
         book_instance_count: numBookInstances,
         book_instance_available_count: numAvailableBookInstances,
